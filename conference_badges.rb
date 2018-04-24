@@ -11,7 +11,7 @@ def assign_rooms(speakers_array)
      "Hello, #{name}! You'll be assigned to room #{index+1}!"}
 end 
 
-def printer
+def printer(speakers_array)
   badge_maker(speakers_array)
   assign_rooms(speakers_array)
 end 
