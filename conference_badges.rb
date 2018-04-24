@@ -7,9 +7,9 @@ def batch_badge_creator(speakers_array)
 end 
 
 def assign_rooms(speakers_array)
-  spearker_rooms=speakers_array.each_with_index.collect {|name, index| 
+  peakers_array.each_with_index.collect {|name, index| 
     "Hello, #{name}! You'll be assigned to room #{index+1}!"}
-    return spearker_rooms
+    
 end 
 
 def printer(speakers_array)
