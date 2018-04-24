@@ -12,5 +12,6 @@ def assign_rooms(speakers_array)
 end 
 
 def printer
-  
+  badge_maker(speakers_array)
+  assign_rooms(speakers_array)
 end 
