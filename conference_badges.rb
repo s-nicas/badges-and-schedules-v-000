@@ -10,3 +10,7 @@ def assign_rooms(speakers_array)
   speakers_array.each_with_index.collect {|name, index| 
      "Hello, #{name}! You'll be assigned to room #{index+1}!"}
 end 
+
+def printer
+  
+end 
