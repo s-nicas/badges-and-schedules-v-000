@@ -16,6 +16,6 @@ def printer(speakers_array)
    badge_maker(speakers_array)
    speaker_and_rooms = assign_rooms(speakers_array)
    speak_and_rooms.each {|assignment|
-   puts assignment
- end 
+   puts assignment}
+ 
 end 
